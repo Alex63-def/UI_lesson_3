@@ -68,16 +68,16 @@ ATankPawn::ATankPawn()
 	AudioEffectStopRotateTurret = CreateDefaultSubobject<UAudioComponent>("AudioEffectStopRotateTurret");
 	AudioEffectStopRotateTurret->SetupAttachment(TurretMesh);
 
-	// это просто рассказ - нигде не использовали
-	// виджет с 3 урока
-	UWidgetComponent* WidgetComp = CreateDefaultSubobject<UWidgetComponent>("HealthBar");
-	WidgetComp->SetWidgetClass(HealthWidget);
+	//// это просто рассказ - нигде не использовали
+	//// виджет с 3 урока
+	//UWidgetComponent* WidgetComp = CreateDefaultSubobject<UWidgetComponent>("HealthBar");
+	//WidgetComp->SetWidgetClass(HealthWidget);
 
-	// это просто рассказ - нигде не использовали
-	// виджет с 3 урока - сцена компонент 
-	WidgetInteract = CreateDefaultSubobject<UWidgetInteractionComponent>("WidgetInteract");
-	WidgetInteract->PressKey(FKey()); // считывает нажатие клавиши
-	WidgetInteract->PressPointerKey(FKey()); // считывает нажатие мышки
+	//// это просто рассказ - нигде не использовали
+	//// виджет с 3 урока - сцена компонент 
+	//WidgetInteract = CreateDefaultSubobject<UWidgetInteractionComponent>("WidgetInteract");
+	//WidgetInteract->PressKey(FKey()); // считывает нажатие клавиши
+	//WidgetInteract->PressPointerKey(FKey()); // считывает нажатие мышки
 }
 
 // Called when the game starts or when spawned

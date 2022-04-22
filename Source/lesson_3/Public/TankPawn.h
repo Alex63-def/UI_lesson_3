@@ -42,13 +42,13 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Widgets")
 		class UUserWidget* GameOverWidget;
 
-	// виджет пс 3 урока пример работы с ним
-	UPROPERTY(EditAnywhere)
-		TSubclassOf<UUserWidget> HealthWidget;
+	//// виджет пс 3 урока пример работы с ним
+	//UPROPERTY(EditAnywhere)
+	//	TSubclassOf<UUserWidget> HealthWidget;
 
-	// это тоже с 3 урока - дальше конструктора это не зашло
-	UPROPERTY(BlueprintReadOnly)
-		UWidgetInteractionComponent* WidgetInteract;
+	//// это тоже с 3 урока - дальше конструктора это не зашло
+	//UPROPERTY(BlueprintReadOnly)
+	//	UWidgetInteractionComponent* WidgetInteract;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Quit game")
 		int QuitGameSec = 3;
