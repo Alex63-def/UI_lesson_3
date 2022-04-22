@@ -15,7 +15,7 @@ UENUM()
 enum class EWidgetID : uint8
 {
 	Wid_MainMenu	= 0x0,
-	Wid_EscapeMenu	= 0x1,
+	Wid_ExitGame	= 0x1,
 };
 
 UCLASS()
